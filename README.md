@@ -3,8 +3,11 @@ To launch the web page do the following:
 #Install from Nuget 
 
 Microsoft.EntityFrameworkCore
+
 Microsoft.EntityFrameworkCore.Tools
+
 Microsoft.EntityFrameworkCore.SqlServer
+
 
 
 #Remove Migration file
@@ -14,5 +17,6 @@ Microsoft.EntityFrameworkCore.SqlServer
 #In package manager console:
 
 add-Migration InitialCreate
+
 update-database
 
